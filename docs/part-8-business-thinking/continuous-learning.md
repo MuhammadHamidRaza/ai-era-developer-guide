@@ -1,5 +1,5 @@
 ---
-title: ""Continuous Learning: The Lifelong Commitment""
+title: "Continuous Learning: The Lifelong Commitment"
 description: How to build a sustainable learning practice that keeps you relevant throughout your career
 ---
 

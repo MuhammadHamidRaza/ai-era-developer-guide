@@ -1,5 +1,5 @@
 ---
-title: ""AI Workflow Automation: n8n, Zapier, and Beyond""
+title: "AI Workflow Automation: n8n, Zapier, and Beyond"
 description: How to automate business workflows using AI-powered automation platforms
 ---
 

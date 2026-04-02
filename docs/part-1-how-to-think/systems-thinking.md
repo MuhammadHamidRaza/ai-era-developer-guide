@@ -1,5 +1,5 @@
 ---
-title: ""Thinking in Systems: Seeing the Whole Picture""
+title: "Thinking in Systems: Seeing the Whole Picture"
 description: How to understand software as interconnected systems rather than isolated components
 ---
 

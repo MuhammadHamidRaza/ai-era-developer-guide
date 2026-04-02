@@ -1,5 +1,5 @@
 ---
-title: ""Production Debugging: When AI Goes Wrong Live""
+title: "Production Debugging: When AI Goes Wrong Live"
 description: How to debug AI systems in production when things go wrong
 ---
 

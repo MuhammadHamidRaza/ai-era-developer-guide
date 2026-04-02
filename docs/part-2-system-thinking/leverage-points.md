@@ -1,5 +1,5 @@
 ---
-title: ""Leverage Points: Where Small Changes Create Big Results""
+title: "Leverage Points: Where Small Changes Create Big Results"
 description: How to identify the highest-impact interventions in complex software systems
 ---
 

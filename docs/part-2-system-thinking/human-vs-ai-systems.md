@@ -1,5 +1,5 @@
 ---
-title: ""Human vs AI Systems: Where Each Excels""
+title: "Human vs AI Systems: Where Each Excels"
 description: Understanding the complementary strengths of human and AI intelligence to build better hybrid systems
 ---
 

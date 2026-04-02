@@ -1,5 +1,5 @@
 ---
-title: ""Prompt Engineering: Beyond the Basics""
+title: "Prompt Engineering: Beyond the Basics"
 description: Advanced prompt engineering techniques that dramatically improve AI output quality
 ---
 

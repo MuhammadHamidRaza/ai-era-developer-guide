@@ -1,5 +1,5 @@
 ---
-title: ""AI Error Patterns: Hallucinations, Security Bugs, and Inefficiency""
+title: "AI Error Patterns: Hallucinations, Security Bugs, and Inefficiency"
 description: Recognizing the most common error patterns in AI-generated code and how to fix them
 ---
 

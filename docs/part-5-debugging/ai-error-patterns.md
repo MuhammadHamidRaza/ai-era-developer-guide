@@ -1,5 +1,5 @@
 ---
-title: ""Probabilistic QA: Testing Non-Deterministic Systems""
+title: "Probabilistic QA: Testing Non-Deterministic Systems"
 description: How to test AI systems where the same input can produce different outputs
 ---
 

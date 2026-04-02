@@ -1,5 +1,5 @@
 ---
-title: ""Cursor vs Copilot vs Claude Code: The 2026 Comparison""
+title: "Cursor vs Copilot vs Claude Code: The 2026 Comparison"
 description: A comprehensive comparison of the leading AI coding tools and when to use each
 ---
 

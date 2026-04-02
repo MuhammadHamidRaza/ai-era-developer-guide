@@ -1,5 +1,5 @@
 ---
-title: ""Security by Design: OWASP LLM Top 10""
+title: "Security by Design: OWASP LLM Top 10"
 description: How to build secure AI systems by understanding and mitigating the top LLM security risks
 ---
 

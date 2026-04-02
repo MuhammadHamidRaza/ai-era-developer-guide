@@ -1,5 +1,5 @@
 ---
-title: ""ROI Thinking: Connecting Code to Business Value""
+title: "ROI Thinking: Connecting Code to Business Value"
 description: How to evaluate every technical decision through the lens of business return on investment
 ---
 

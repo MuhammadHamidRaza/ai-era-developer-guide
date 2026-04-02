@@ -1,5 +1,5 @@
 ---
-title: ""Second-Order Thinking: And Then What?""
+title: "Second-Order Thinking: And Then What?"
 description: How to see beyond immediate consequences and make decisions that hold up over time
 ---
 

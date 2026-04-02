@@ -1,5 +1,5 @@
 ---
-title: ""Multi-Agent Patterns: CrewAI, LangGraph, and Beyond""
+title: "Multi-Agent Patterns: CrewAI, LangGraph, and Beyond"
 description: Practical patterns for building systems with multiple collaborating AI agents
 ---
 

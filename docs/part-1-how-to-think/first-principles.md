@@ -1,5 +1,5 @@
 ---
-title: ""First Principles Thinking: Reasoning From Scratch""
+title: "First Principles Thinking: Reasoning From Scratch"
 description: How to break down complex problems to their fundamental truths and rebuild solutions from the ground up
 ---
 

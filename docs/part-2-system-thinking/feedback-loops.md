@@ -1,5 +1,5 @@
 ---
-title: ""Feedback Loops: The Hidden Forces in Software""
+title: "Feedback Loops: The Hidden Forces in Software"
 description: Understanding the reinforcing and balancing loops that drive system behavior
 ---
 

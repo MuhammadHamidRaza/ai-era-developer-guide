@@ -1,5 +1,5 @@
 ---
-title: ""Decision Frameworks: Making Calls With Incomplete Data""
+title: "Decision Frameworks: Making Calls With Incomplete Data"
 description: Structured approaches to making sound decisions when you don't have all the information
 ---
 

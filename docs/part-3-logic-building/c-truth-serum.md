@@ -1,5 +1,5 @@
 ---
-title: ""C/C++ Truth Serum: Understanding Computing at the Metal""
+title: "C/C++ Truth Serum: Understanding Computing at the Metal"
 description: How learning C/C++ reveals the reality of how computers execute your code
 ---
 

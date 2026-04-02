@@ -1,3 +1,7 @@
+---
+title: "The Reality Check: Software Is Not Dead — But Your Career Might Be"
+---
+
 # The Reality Check: Software Is Not Dead — But Your Career Might Be
 
 :::danger Read This First

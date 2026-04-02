@@ -1,5 +1,5 @@
 ---
-title: ""The Divergence Test: When AI Answers Disagree""
+title: "The Divergence Test: When AI Answers Disagree"
 description: A systematic approach to resolving contradictions between AI tools and developing independent judgment
 ---
 

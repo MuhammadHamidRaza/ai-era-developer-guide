@@ -1,5 +1,5 @@
 ---
-title: ""Emergent Behavior: When Systems Surprise You""
+title: "Emergent Behavior: When Systems Surprise You"
 description: Understanding how complex behaviors arise from simple interactions and how to design for emergence
 ---
 

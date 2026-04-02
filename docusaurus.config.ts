@@ -49,10 +49,7 @@ const config: Config = {
     },
     navbar: {
       title: 'AI Era Developer Guide',
-      logo: {
-        alt: 'AI Era Developer Survival Guide',
-        src: 'img/logo.svg',
-      },
+      hideOnScroll: false,
       items: [
         {
           type: 'docSidebar',
@@ -92,7 +89,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Muhammad Hamid Raza. All rights reserved. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Muhammad Hamid Raza. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -1,5 +1,5 @@
 ---
-title: ""Domain Workflows: Finance, Legal, HR, Sales Agents""
+title: "Domain Workflows: Finance, Legal, HR, Sales Agents"
 description: Building AI agents for specific business domains with real-world requirements
 ---
 

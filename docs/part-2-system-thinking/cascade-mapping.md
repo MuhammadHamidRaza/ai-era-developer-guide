@@ -1,5 +1,5 @@
 ---
-title: ""Cascade Mapping: Tracing System Dependencies""
+title: "Cascade Mapping: Tracing System Dependencies"
 description: How to visualize and understand the chain reactions that flow through software systems
 ---
 

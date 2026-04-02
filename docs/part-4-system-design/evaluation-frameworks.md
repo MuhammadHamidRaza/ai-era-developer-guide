@@ -1,5 +1,5 @@
 ---
-title: ""Evaluation Frameworks: DeepEval, Ragas, and Production QA""
+title: "Evaluation Frameworks: DeepEval, Ragas, and Production QA"
 description: How to systematically evaluate AI system quality in production
 ---
 

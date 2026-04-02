@@ -1,5 +1,5 @@
 ---
-title: ""Prediction Lock: Commit Before You Ask""
+title: "Prediction Lock: Commit Before You Ask"
 description: A powerful technique for improving your reasoning by making predictions before consulting AI
 ---
 

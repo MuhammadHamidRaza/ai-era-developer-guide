@@ -1,5 +1,5 @@
 ---
-title: ""Variable Shift: What Changes When AI Enters the System""
+title: "Variable Shift: What Changes When AI Enters the System"
 description: How the introduction of AI fundamentally transforms every variable in a software system
 ---
 

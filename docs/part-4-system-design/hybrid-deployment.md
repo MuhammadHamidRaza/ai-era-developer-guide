@@ -1,5 +1,5 @@
 ---
-title: ""Hybrid Deployment: Vercel + Render + Northflank""
+title: "Hybrid Deployment: Vercel + Render + Northflank"
 description: How to deploy modern AI-augmented applications using a hybrid cloud strategy
 ---
 

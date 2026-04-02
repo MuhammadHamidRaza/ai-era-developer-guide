@@ -1,5 +1,5 @@
 ---
-title: ""MCP Connectors: The USB-C of AI""
+title: "MCP Connectors: The USB-C of AI"
 description: How Model Context Protocol standardizes AI tool connections and why it matters
 ---
 

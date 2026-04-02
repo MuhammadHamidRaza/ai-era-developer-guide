@@ -1,5 +1,5 @@
 ---
-title: ""Intent-Driven Design: Defining What, Not How""
+title: "Intent-Driven Design: Defining What, Not How"
 description: How to design systems by specifying desired outcomes rather than implementation details
 ---
 

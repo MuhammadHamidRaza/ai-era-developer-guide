@@ -1,5 +1,5 @@
 ---
-title: ""Knowing When AI Is Wrong: The Most Critical Skill""
+title: "Knowing When AI Is Wrong: The Most Critical Skill"
 description: How to develop the intuition and systematic approaches to detect AI errors
 ---
 

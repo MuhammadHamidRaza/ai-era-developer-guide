@@ -1,5 +1,5 @@
 ---
-title: ""Data Structures: What AI Can't Reason About""
+title: "Data Structures: What AI Can't Reason About"
 description: The data structures that require deep understanding and why AI struggles with them
 ---
 

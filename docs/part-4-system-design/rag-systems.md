@@ -1,5 +1,5 @@
 ---
-title: ""RAG Systems: Retrieval-Augmented Generation in Production""
+title: "RAG Systems: Retrieval-Augmented Generation in Production"
 description: How to build production-ready RAG pipelines that deliver accurate, reliable AI responses
 ---
 

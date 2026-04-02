@@ -1,5 +1,5 @@
 ---
-title: ""Timeless Fundamentals: What Never Changes""
+title: "Timeless Fundamentals: What Never Changes"
 description: The core computing concepts that remain relevant regardless of technology trends
 ---
 

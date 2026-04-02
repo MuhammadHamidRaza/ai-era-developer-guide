@@ -1,5 +1,5 @@
 ---
-title: ""Python Deep Dive: The Language of the AI Era""
+title: "Python Deep Dive: The Language of the AI Era"
 description: Mastering Python's core concepts, advanced features, and AI ecosystem
 ---
 
