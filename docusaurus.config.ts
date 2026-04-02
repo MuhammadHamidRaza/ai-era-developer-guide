@@ -11,10 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://hamidrza.github.io',
+  url: 'https://MuhammadHamidRaza.github.io',
   baseUrl: '/ai-era-developer-guide/',
-  organizationName: 'hamidrza',
+  organizationName: 'MuhammadHamidRaza',
   projectName: 'ai-era-developer-guide',
+  trailingSlash: false,
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
