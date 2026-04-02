@@ -15,7 +15,20 @@ const parts = [
   { number: 6, icon: '🤖', title: 'AI + Agents', desc: 'Tool selection, custom agents, orchestration, prompt engineering' },
   { number: 7, icon: '🧩', title: 'Problem Solving', desc: 'Decomposition, decision frameworks, domain workflows, 10x workflow' },
   { number: 8, icon: '💼', title: 'Business & Career', desc: 'ROI thinking, global salaries, freelancing, SaaS, personal brand' },
+  { number: 9, icon: '🚀', title: 'Build → Deploy → Show', desc: 'Real projects, open source, LinkedIn, referrals — get hired' },
 ];
+
+const partSlugMap: Record<number, string> = {
+  1: '1-how-to-think',
+  2: '2-system-thinking',
+  3: '3-logic-building',
+  4: '4-system-design',
+  5: '5-debugging',
+  6: '6-ai-agents',
+  7: '7-problem-solving',
+  8: '8-business-thinking',
+  9: '9-build-deploy-show',
+};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -45,10 +58,10 @@ function PartCards() {
   return (
     <section className={styles.partsSection}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>8 Parts. One Mission: Your Survival.</h2>
+        <h2 className={styles.sectionTitle}>9 Parts. One Mission: Your Survival.</h2>
         <div className={styles.partsGrid}>
           {parts.map((part) => (
-            <Link key={part.number} to={`/part-${part.number === 1 ? '1-how-to-think' : part.number === 2 ? '2-system-thinking' : part.number === 3 ? '3-logic-building' : part.number === 4 ? '4-system-design' : part.number === 5 ? '5-debugging' : part.number === 6 ? '6-ai-agents' : part.number === 7 ? '7-problem-solving' : '8-business-thinking'}`} className={styles.partCard}>
+            <Link key={part.number} to={`/part-${partSlugMap[part.number]}`} className={styles.partCard}>
               <div className={styles.partIcon}>{part.icon}</div>
               <h3>Part {part.number}: {part.title}</h3>
               <p>{part.desc}</p>

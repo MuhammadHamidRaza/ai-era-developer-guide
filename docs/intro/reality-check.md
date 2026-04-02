@@ -55,7 +55,7 @@ The developer of 2026 is not a syntax specialist. They are an **architect of int
 
 ## How This Book Will Save Your Career
 
-This book is structured as 8 progressive parts, each building on the previous:
+This book is structured as 9 progressive parts, each building on the previous:
 
 - **Part 1: How to Think** — The foundation of all engineering reasoning
 - **Part 2: System Thinking** — Seeing beyond the immediate problem
@@ -65,6 +65,7 @@ This book is structured as 8 progressive parts, each building on the previous:
 - **Part 6: AI + Agents** — Orchestrating, not typing
 - **Part 7: Problem Solving** — Breaking down the impossible
 - **Part 8: Business & Career** — From developer to indispensable
+- **Part 9: Build → Deploy → Show** — Real projects, open source, referrals, hired
 
 Every chapter is evidence-backed with sourced data, practical examples, and actionable checklists. This is not theory. This is your survival manual.
 

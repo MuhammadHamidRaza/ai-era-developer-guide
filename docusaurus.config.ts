@@ -80,6 +80,7 @@ const config: Config = {
             {label: 'AI + Agents', to: '/part-6-ai-agents/cursor-vs-copilot-vs-claude'},
             {label: 'Problem Solving', to: '/part-7-problem-solving/decomposition'},
             {label: 'Business & Career', to: '/part-8-business-thinking/roi-thinking'},
+            {label: 'Build → Deploy → Show', to: '/part-9-build-deploy-show/build-real-projects'},
           ],
         },
         {

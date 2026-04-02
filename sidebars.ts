@@ -131,6 +131,19 @@ const sidebars: SidebarsConfig = {
         'part-8-business-thinking/survival-roadmap',
       ],
     },
+    {
+      type: 'category',
+      label: '🚀 Part 9: Build → Deploy → Show',
+      link: {type: 'doc', id: 'part-9-build-deploy-show/build-real-projects'},
+      items: [
+        'part-9-build-deploy-show/build-real-projects',
+        'part-9-build-deploy-show/deploy-publicly',
+        'part-9-build-deploy-show/power-of-open-source',
+        'part-9-build-deploy-show/write-and-share',
+        'part-9-build-deploy-show/referrals-network',
+        'part-9-build-deploy-show/zero-to-hired',
+      ],
+    },
   ],
 };
 
