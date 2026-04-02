@@ -18,16 +18,16 @@ const parts = [
   { number: 9, icon: '🚀', title: 'Build → Deploy → Show', desc: 'Real projects, open source, LinkedIn, referrals — get hired' },
 ];
 
-const partSlugMap: Record<number, string> = {
-  1: '1-how-to-think',
-  2: '2-system-thinking',
-  3: '3-logic-building',
-  4: '4-system-design',
-  5: '5-debugging',
-  6: '6-ai-agents',
-  7: '7-problem-solving',
-  8: '8-business-thinking',
-  9: '9-build-deploy-show',
+const partFirstChapter: Record<number, string> = {
+  1: '/part-1-how-to-think/art-of-questioning',
+  2: '/part-2-system-thinking/cascade-mapping',
+  3: '/part-3-logic-building/timeless-fundamentals',
+  4: '/part-4-system-design/agentic-architecture',
+  5: '/part-5-debugging/mental-stack-trace',
+  6: '/part-6-ai-agents/cursor-vs-copilot-vs-claude',
+  7: '/part-7-problem-solving/decomposition',
+  8: '/part-8-business-thinking/roi-thinking',
+  9: '/part-9-build-deploy-show/build-real-projects',
 };
 
 function HomepageHeader() {
@@ -61,7 +61,7 @@ function PartCards() {
         <h2 className={styles.sectionTitle}>9 Parts. One Mission: Your Survival.</h2>
         <div className={styles.partsGrid}>
           {parts.map((part) => (
-            <Link key={part.number} to={`/part-${partSlugMap[part.number]}`} className={styles.partCard}>
+            <Link key={part.number} to={partFirstChapter[part.number]} className={styles.partCard}>
               <div className={styles.partIcon}>{part.icon}</div>
               <h3>Part {part.number}: {part.title}</h3>
               <p>{part.desc}</p>
