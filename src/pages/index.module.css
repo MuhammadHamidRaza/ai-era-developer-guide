@@ -1,5 +1,5 @@
 /**
- * ULTRA PREMIUM HOMEPAGE
+ * ULTRA PREMIUM HOMEPAGE - Dark Mode Only
  * Complete custom design - No default Docusaurus look
  * Author: Muhammad Hamid Raza
  */
@@ -13,19 +13,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: var(--gradient-hero);
+  background: linear-gradient(135deg, #0a0a0f 0%, #1a1025 25%, #0f172a 50%, #1e1b4b 75%, #0a0a0f 100%);
   background-size: 400% 400%;
   animation: gradientShift 20s ease infinite;
   color: #ffffff;
   min-height: 100vh;
   display: flex;
   align-items: center;
-}
-
-[data-theme='light'] .heroBanner {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 25%, #c7d2fe 50%, #a5b4fc 75%, #f8fafc 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 20s ease infinite;
 }
 
 /* Animated background particles */
@@ -77,13 +71,6 @@
   line-height: 1.05;
 }
 
-[data-theme='light'] .heroBanner .hero__title {
-  background: linear-gradient(135deg, #1e1b4b 0%, #4f46e5 30%, #6366f1 60%, #06b6d4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .heroBanner .hero__subtitle {
   font-family: var(--ifm-font-family-heading);
   font-size: 1.75rem;
@@ -94,10 +81,6 @@
   animation: fadeInUp 1s ease-out 0.2s both;
   font-weight: 400;
   line-height: 1.5;
-}
-
-[data-theme='light'] .heroBanner .hero__subtitle {
-  color: #475569;
 }
 
 .heroWarning {
@@ -112,12 +95,6 @@
   animation: fadeInUp 1s ease-out 0.4s both;
   backdrop-filter: blur(20px);
   line-height: 1.7;
-}
-
-[data-theme='light'] .heroWarning {
-  background: rgba(244, 63, 94, 0.05);
-  color: #991b1b;
-  border-color: rgba(244, 63, 94, 0.15);
 }
 
 .heroWarning strong {
@@ -146,10 +123,6 @@
   background: linear-gradient(180deg, #0a0a0f 0%, #0f0f1a 100%);
 }
 
-[data-theme='light'] .partsSection {
-  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
-}
-
 .partsSection::before {
   content: '';
   position: absolute;
@@ -166,7 +139,7 @@
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 5rem;
-  background: var(--gradient-text);
+  background: linear-gradient(135deg, #c4b5fd, #8b5cf6, #06b6d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -184,7 +157,7 @@
 }
 
 .partCard {
-  border: 1px solid var(--glass-border);
+  border: 1px solid rgba(139, 92, 246, 0.15);
   border-radius: 24px;
   padding: 2.5rem;
   text-decoration: none;
@@ -193,9 +166,9 @@
   display: block;
   position: relative;
   overflow: hidden;
-  background: var(--glass-bg);
+  background: rgba(15, 15, 25, 0.7);
   backdrop-filter: blur(20px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 .partCard::before {
@@ -205,7 +178,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -218,15 +191,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--gradient-card);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(99, 102, 241, 0.04));
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
 }
 
 .partCard:hover {
-  border-color: var(--glass-border-hover);
-  box-shadow: var(--shadow-xl), var(--shadow-glow);
+  border-color: rgba(139, 92, 246, 0.4);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2), 0 0 40px rgba(139, 92, 246, 0.3);
   transform: translateY(-12px);
 }
 
@@ -259,7 +232,7 @@
   font-family: var(--ifm-font-family-heading);
   font-size: 1.5rem;
   font-weight: 800;
-  background: var(--gradient-text);
+  background: linear-gradient(135deg, #c4b5fd, #8b5cf6, #06b6d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -276,10 +249,6 @@
   z-index: 1;
 }
 
-[data-theme='light'] .partCard p {
-  color: #475569;
-}
-
 /* ======================== */
 /* AUTHOR SECTION           */
 /* ======================== */
@@ -290,10 +259,6 @@
   background: linear-gradient(180deg, #0f0f1a 0%, #0a0a0f 100%);
 }
 
-[data-theme='light'] .authorSection {
-  background: linear-gradient(180deg, #f1f5f9 0%, #f8fafc 100%);
-}
-
 .authorSection::before {
   content: '';
   position: absolute;
@@ -301,7 +266,7 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  background: linear-gradient(90deg, transparent, #06b6d4, transparent);
 }
 
 .authorCard {
@@ -309,10 +274,10 @@
   margin: 0 auto;
   padding: 4rem;
   border-radius: 32px;
-  background: var(--glass-bg);
+  background: rgba(15, 15, 25, 0.7);
   backdrop-filter: blur(30px);
-  border: 1px solid var(--glass-border);
-  box-shadow: var(--shadow-xl);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
 }
@@ -324,7 +289,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
 }
 
 .authorCard::after {
@@ -360,7 +325,7 @@
   font-size: 3rem;
   font-weight: 900;
   margin: 0 0 2.5rem 0;
-  background: var(--gradient-text);
+  background: linear-gradient(135deg, #c4b5fd, #8b5cf6, #06b6d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -375,14 +340,10 @@
   color: #94a3b8;
 }
 
-[data-theme='light'] .authorContent p {
-  color: #475569;
-}
-
 .authorMission {
   margin-top: 3rem !important;
   padding: 2rem 3rem;
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
   background-size: 200% 200%;
   animation: gradientShift 3s ease infinite;
   border-radius: 20px;

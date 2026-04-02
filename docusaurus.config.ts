@@ -44,8 +44,8 @@ const config: Config = {
     image: 'img/social-card.jpg',
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'AI Era Developer Guide',
@@ -59,11 +59,6 @@ const config: Config = {
           sidebarId: 'bookSidebar',
           position: 'left',
           label: 'Book',
-        },
-        {
-          href: 'https://github.com/hamidrza/ai-era-developer-guide',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -90,12 +85,10 @@ const config: Config = {
           ],
         },
         {
-          title: 'Resources',
+          title: 'About',
           items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/hamidrza/ai-era-developer-guide',
-            },
+            {label: 'Author', to: '/intro/reality-check'},
+            {label: 'Contact', href: 'mailto:contact@example.com'},
           ],
         },
       ],
