@@ -79,27 +79,38 @@ function AuthorSection() {
       <div className="container">
         <div className={styles.authorCard}>
           <div className={styles.authorContent}>
-            <div>
-              <h2>About the Author</h2>
-              <h3>Muhammad Hamid Raza</h3>
-              <p>
-                A developer working at the intersection of AI, agentic systems, and modern web technologies.
-                My work focuses on building real-world systems using tools like the OpenAI Agent SDK,
-                multi-agent architectures, and the MERN stack.
-              </p>
-              <p>
-                Like many developers, I witnessed the rapid shift brought by AI — where tools started
-                writing code, automating tasks, and changing what it means to be a "developer." Instead
-                of resisting this change, I chose to study it deeply, experiment with it, and build with it.
-              </p>
-              <p>
-                This book is the result of that journey. It is not written from theory alone, but from
-                building AI-powered systems, exploring agent-based architectures, and understanding how
-                developers are being replaced, reshaped, or upgraded.
-              </p>
-              <p className={styles.authorMission}>
-                <strong>My goal is simple: To help developers not just survive the AI era — but dominate it.</strong>
-              </p>
+            <div className={styles.authorLayout}>
+              <div className={styles.authorImageWrapper}>
+                <div className={styles.authorImageGlow} />
+                <img 
+                  src="/ai-era-developer-guide/img/my image.png" 
+                  alt="Muhammad Hamid Raza" 
+                  className={styles.authorImage}
+                />
+                <div className={styles.authorImageBorder} />
+              </div>
+              <div className={styles.authorText}>
+                <h2>About the Author</h2>
+                <h3>Muhammad Hamid Raza</h3>
+                <p>
+                  A developer working at the intersection of AI, agentic systems, and modern web technologies.
+                  My work focuses on building real-world systems using tools like the OpenAI Agent SDK,
+                  multi-agent architectures, and the MERN stack.
+                </p>
+                <p>
+                  Like many developers, I witnessed the rapid shift brought by AI — where tools started
+                  writing code, automating tasks, and changing what it means to be a "developer." Instead
+                  of resisting this change, I chose to study it deeply, experiment with it, and build with it.
+                </p>
+                <p>
+                  This book is the result of that journey. It is not written from theory alone, but from
+                  building AI-powered systems, exploring agent-based architectures, and understanding how
+                  developers are being replaced, reshaped, or upgraded.
+                </p>
+                <p className={styles.authorMission}>
+                  <strong>My goal is simple: To help developers not just survive the AI era — but dominate it.</strong>
+                </p>
+              </div>
             </div>
           </div>
         </div>

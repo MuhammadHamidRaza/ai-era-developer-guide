@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'The AI Era Developer Survival Guide',
   tagline: 'By Muhammad Hamid Raza — Strategic Resilience and Market Dominance (2026–2035)',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
 
   future: {
     v4: true,
@@ -57,6 +57,12 @@ const config: Config = {
           sidebarId: 'bookSidebar',
           position: 'left',
           label: 'Book',
+        },
+        {
+          href: 'https://github.com/MuhammadHamidRaza/ai-era-developer-guide',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
