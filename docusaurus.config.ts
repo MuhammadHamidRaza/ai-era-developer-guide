@@ -92,8 +92,8 @@ const config: Config = {
         {
           title: 'About',
           items: [
-            {label: 'Author', to: '/intro/reality-check'},
-            {label: 'Contact', href: 'mailto:contact@example.com'},
+            {label: 'Author', to: '/#author'},
+            {label: 'Contact', href: 'https://muhammad-hamid-raza.vercel.app/'},
           ],
         },
       ],
